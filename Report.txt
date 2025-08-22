@@ -1,0 +1,32 @@
+**Title:** Predicting House Prices with Machine Learning  
+
+**Author:** Grace  
+
+**Objective:**  
+The goal of this project was to build a machine learning model that can predict house prices based on housing attributes.  
+
+**Dataset:**  
+- Source: `Housing_data.csv`  
+- Contains features like size, rooms, year built, location, and the target variable `price`.  
+
+**Methodology:**  
+1. Performed exploratory data analysis (EDA) to understand distributions and correlations.  
+2. Preprocessed data (missing value handling, encoding categorical variables, scaling).  
+3. Split data into training (80%) and test (20%) sets.  
+4. Trained a **Linear Regression** model.  
+5. Evaluated performance using **Mean Squared Error (MSE)** and **R² score**.  
+6. Visualized predicted vs actual house prices.  
+
+**Findings:**  
+- The model achieved a reasonable R² score, showing it explains a good portion of house price variation.  
+- Features with the strongest influence:  
+  - **Square footage** (larger homes → higher price).  
+  - **Location** (certain neighborhoods add/subtract significant value).  
+  - **Number of rooms** (positive impact but diminishing after a point).  
+  - **Year built** (newer houses typically more expensive).  
+- The model tends to **underestimate very expensive houses**, which is common for Linear Regression.  
+
+**Conclusion:**  
+Machine learning can effectively estimate house prices. With advanced models (e.g., Random Forest, XGBoost), predictions can be improved further. This project demonstrates the **value of data-driven insights** in the real estate market.  
+
+---
